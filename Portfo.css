@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap');
+*{
+    font-family: 'Arial', sans-serif;
+}
+body{
+    background-image: linear-gradient(to right, rgb(1, 26, 34), rgb(6, 32, 53));
+}
+
+
+.topdown_menu{
+    width: 800px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+.small-container{
+    width: 97%;
+    display: flex-start;
+    background-image:linear-gradient(to bottom right,  rgb(31, 41, 71), black);
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+}
+h6{
+    height: 0px;
+    font-family: 'Doto';
+    font-size: 15px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    margin-left: 950px; 
+    font-variation-settings:
+    "ROND" 20; 
+}
+h1{
+    font-family: 'Doto';
+    font-size: 150px;
+    font-weight: 900;
+    color: rgb(93, 240, 124);
+    margin-left: 15px; 
+    font-variation-settings:
+    "ROND" 20; 
+}
+
+
+
+.profile{
+    background-image: linear-gradient(to left, rgb(6, 46, 78), rgb(44, 73, 94));
+    margin-top: 200px;
+    font-size: 10px;
+    text-align: center;
+    display: flex;
+    margin-bottom: 75px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.facts{
+    background-image: linear-gradient(to left, rgb(6, 46, 78), rgb(44, 73, 94));
+    
+    font-size: 10px;
+    text-align: center;
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+.hackclubmap{
+    margin-left:30px;
+    border-radius:20px;
+}
+.roles{
+    background-image: linear-gradient(to left, rgb(6, 46, 78), rgb(44, 73, 94));
+    margin-top: 75px;
+    font-size: 10px;
+    text-align: center;
+    display: flex;
+    margin-bottom: 75px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+.program-lang{
+    background-image: linear-gradient(to left, rgb(6, 46, 78), rgb(44, 73, 94));
+    margin-top: 75px;
+    font-size: 10px;
+    text-align: center;
+    display: flex;
+    margin-bottom: 75px;
+    border-radius: 10px;
+    justify-content: space-between;
+
+}
+h2{
+    margin-left: 20px;
+    width: 550px;
+    font-family: 'Doto';
+    text-align: left;
+    font-size: 40px;
+    color: white;
+}
+h3{
+    font-family: 'Doto';
+    margin-left:15px;
+    font-size: 20px;
+    font: sans-serif;
+    color: white;
+}
+h4{
+    font-size: 200px;
+    margin-left: 20px;
+    width: 550px;
+    font-family: 'Doto';
+    text-align: left;
+    font-size: 40px;
+    color: white;
+
+}
+
+a{
+    font-size: 40px;
+    color: rgb(255, 72, 0);
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.brag{
+    justify-content: space-between;
+    display: flex;
+}
+.program_list{
+    
+    justify-content: space-between;
+    background-color: rgb(19, 166, 224);
+    border-radius: 15px;
+    width: 600px;
+    padding: 15px;
+}
+
+.medium-sites{
+    margin-left: 30px;
+    justify-content: space-between;
+    background-color: rgb(19, 166, 224);
+    border-radius: 15px;
+    width: 600px;
+    padding: 15px;
+}
+.collatz{
+    margin-left:50px;
+}
+.legos{
+    margin-left:50px;
+}
+#othgit-button{
+    width: 400px;
+    height: 30px;
+    margin-left: 100px;
+    border-radius: 15px;
+    border:none;
+    cursor: pointer;
+
+}
+#othgit-button:hover{
+    background-color: gray;
+}
+
+.Charlene{
+    height: 300px;
+    width: 500px;
+    margin-left: 50px;
+}
+.snakegame{
+    height: 300px;
+    width: 500px;
+    margin-left: 50px;
+}
+.YT-down{
+    height: 300px;
+    width: 500px;
+    margin-left: 50px;
+}
+.sudoku{
+    height: 300px;
+    width: 500px;
+    margin-left: 50px;
+}
+
+#git-button{
+    margin-left: 700px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    width: 60px;
+    align-items: center;
+    padding: 15px;
+    transition: all 0.3s ease;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(14, 11, 11);
+    cursor: pointer;
+    
+}
+#git-button:hover{
+    background-color: rgb(133, 129, 129);
+}
+#sequence-button{
+    margin-left: 5px;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    width: 60px;
+    align-items: center;
+    padding: 15px;
+    transition: all 0.3s ease;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(14, 11, 11);
+    cursor: pointer;
+}
+#sequence-button:hover{
+    background-color: rgb(133, 129, 129);
+}
+#medium-button{
+    margin-left: 5px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    width: 60px;
+    align-items: center;
+    padding: 15px;
+    transition: all 0.3s ease;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(14, 11, 11);
+    cursor: pointer;
+    
+}
+#medium-button:hover{
+    background-color: rgb(133, 129, 129);
+}
+#insta-button{
+    margin-left: 5px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    width: 60px;
+    align-items: center;
+    padding: 15px;
+    transition: all 0.3s ease;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(14, 11, 11);
+    cursor: pointer;
+    
+}
+#insta-button:hover{
+    background-color: rgb(133, 129, 129);
+}
+#you-button{
+    margin-left: 5px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    width: 60px;
+    align-items: center;
+    padding: 15px;
+    transition: all 0.3s ease;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(14, 11, 11);
+    cursor: pointer;
+    
+}
+#you-button:hover{
+    background-color: rgb(133, 129, 129);
+}
+#stack-button{
+    margin-left: 5px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    width: 60px;
+    align-items: center;
+    padding: 15px;
+    transition: all 0.3s ease;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(14, 11, 11);
+    cursor: pointer;
+    
+}
+#stack-button:hover{
+    background-color: rgb(133, 129, 129);
+}
+#band-button{
+    margin-left: 5px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    width: 60px;
+    align-items: center;
+    padding: 15px;
+    transition: all 0.3s ease;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(14, 11, 11);
+    cursor: pointer;
+    
+}
+#band-button:hover{
+    background-color: rgb(133, 129, 129);
+}
+#hcb-button{
+    margin-left: 5px;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    width: 60px;
+    align-items: center;
+    padding: 15px;
+    transition: all 0.3s ease;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(14, 11, 11);
+    cursor: pointer;
+}
+#hcb-button:hover{
+    background-color: rgb(133, 129, 129);
+}
+#ai-button{
+    margin-left: 5px;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    width: 60px;
+    align-items: center;
+    padding: 15px;
+    transition: all 0.3s ease;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(14, 11, 11);
+    cursor: pointer;
+}
+#ai-button:hover{
+    background-color: rgb(133, 129, 129);
+}
+
+
+
+
+
+
+
+::-webkit-scrollbar {
+    background: rgb(50, 72, 100);
+    padding: 10px 8px 11px;
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(22, 36, 61);
+    padding: 10px 8px 11px;
+    border-radius: 3px;
+}
+::-webkit-scrollbar-hover {
+    background: rgb(51, 51, 92);
+    padding: 10px 8px 11px;
+}
