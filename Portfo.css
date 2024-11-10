@@ -17,7 +17,7 @@ body{
 }
 
 .small-container{
-    width: 97%;
+    width: 100%;
     display: flex-start;
     background-image:linear-gradient(to bottom right,  rgb(31, 41, 71), black);
     flex-direction: column;
@@ -29,6 +29,7 @@ body{
     padding: 10px;
 }
 h6{
+    position: sticky;
     height: 0px;
     font-family: 'Doto';
     font-size: 15px;
@@ -117,7 +118,7 @@ h4{
     font-family: 'Doto';
     text-align: left;
     font-size: 40px;
-    color: white;
+    color: rgb(71, 255, 80);
 
 }
 
@@ -191,7 +192,6 @@ a{
 }
 
 #git-button{
-    margin-left: 700px;
     font-size: 50px;
     display: flex;
     justify-content: center;
